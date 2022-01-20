@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="../public/css/bootstrap.min.css">
+
+     <!-- cv-style CSS -->
+     <link rel="stylesheet" href="../public/css/contact-style.css">
+
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="../public/css/mdb.min.css">
+
+    <!-- animate.css -->
+    <link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "Curriculum",
+        "name": "Sandra Vázquez Cañoto",
+        "author": {
+          "@type": "Person",
+          "name": "Sandra V"
+        },
+        "datePublished": "2020-11-10",
+        "description": "Curriculum vitae of a web developper: Sandra Vázquez Cañoto.",
+      }
+    </script>
+    <script src="../public/js/components/navbar.js" type="text/javascript" defer></script>
+    <script type="text/x-typescript" src="../controllers/contactController.ts"></script>
+
+  </head>
+
+  <body>
+    <!-- Main navigation -->
+      <header>
+        <!--Navbar-->
+        <navbar-component></navbar-component>
+        <!-- Navbar -->
+        <!-- Full Page Intro -->
+        <div class="view" style="background-color: #132a13;">
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+            <!-- Content -->
+            <div class="customized text-center">
+                <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 animate__animated animate__bounce" style="letter-spacing: 0.2px;">
+                    Contact me
+                </h1>
+                <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="1.8s" style="border-color:#4f772d;">
+                
+                <p class="mb-5 text-center white-text mx-5 mt-5">
+                If you have any question, please do not hesitate to use this form. And last but not least, if you were inclined to hire me, please let me know by sending me a message. 
+                </p>
+                
+                <form id="form" action="/contact.js" method="post">
+                    <ul>
+                     <li>
+                       <label for="name">Name:</label>
+                       <input type="text" id="name" name="user_name">
+                     </li>
+                     <li>
+                       <label for="mail">E-mail:</label>
+                       <input type="email" id="mail" name="user_email">
+                     </li>
+                     <li>
+                        <label for="subject">Subject:</label>
+                        <input type="subject" id="subject" name="user_subject">
+                      </li>
+                     <li>
+                        <label for="msg">Message:</label>
+                       <textarea id="msg" name="user_message"></textarea>
+                     </li>
+                     <li class="button">
+                        <button type="submit">
+                            Send your message
+                            <img style="display: inline-block;" alt="paper-plane" src="../assets/icons/paper-plane.svg"/>
+                        </button>
+                     </li>
+                     <symbol id="icon-paper-plane" viewBox="0 0 20 20">
+                        <path d="M18.64 2.634c-0.344 0.121-17.321 6.104-17.656 6.222-0.284 0.1-0.347 0.345-0.010 0.479 0.401 0.161 3.796 1.521 3.796 1.521v0l2.25 0.901c0 0 10.838-7.958 10.984-8.066 0.148-0.108 0.318 0.095 0.211 0.211s-7.871 8.513-7.871 8.513v0.002l-0.452 0.503 0.599 0.322c0 0 4.65 2.504 4.982 2.682 0.291 0.156 0.668 0.027 0.752-0.334 0.099-0.426 2.845-12.261 2.906-12.525 0.079-0.343-0.148-0.552-0.491-0.431zM7 17.162c0 0.246 0.139 0.315 0.331 0.141 0.251-0.229 2.85-2.561 2.85-2.561l-3.181-1.644v4.064z"></path>
+                    </symbol>
+                    </ul>
+                    
+                   </form>
+
+
+            </div>
+        </div>
+        <!-- Full Page Intro -->
+      </header>
+        <!-- Main navigation -->
+        <!--Main Layout-->
+        <main>
+        
+        </main>
+        <!--Main Layout-->
+      <!-- Optional JavaScript -->
+      <!-- JQuery -->
+      <script type="text/javascript" src="../public/js/jquery-3.3.1.min.js"></script>
+      <!-- Tooltips -->
+      <script type="text/javascript" src="../public/js/popper.min.js"></script>
+      <!-- Bootstrap core JavaScript -->
+      <script type="text/javascript" src="../public/js/bootstrap.min.js"></script>
+      <!-- MDB core JavaScript -->
+      <script type="text/javascript" src="../public/js/mdb.min.js"></script>
+      <script>
+      new WOW().init();
+      </script>
+    </body>
+  </html> 

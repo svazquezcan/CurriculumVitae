@@ -1,0 +1,84 @@
+.mask{
+    overflow: auto!important;
+}
+
+.skills-details{
+    padding-right: 5rem;
+    /*width: 50%;*/
+    display: flex;
+    flex-direction: row;
+    color: white;
+    display: flex;
+}
+
+.chart-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.chart {
+    margin-bottom: 2rem;
+    width: 50%;
+}
+
+.chart span {
+    font-size: 18px;
+    margin-bottom: 7px;
+    display: block;
+}
+
+.chart footer {
+    background-color: #373737;
+    height: 2px;
+}
+
+.chart footer div {
+    width: 0;
+    height: 100%;
+    background-color: #08fdd8;
+    -webkit-transition: width 1.3s ease-out;
+    -o-transition: width 1.3s ease-out;
+    transition: width 1.3s ease-out;
+}
+
+.work {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.work-box {
+    width: 48%;
+    background: #31572c;
+    padding: 3rem;
+    border-radius: 50px;
+}
+
+.work-box header {
+    font-size: 2.6rem;
+    line-height: 2rem;
+}
+
+.work-box section {
+    font-size: 1.6rem;
+    color: #ababab;
+    margin-bottom: 1rem;
+}
+
+
+.work-box section time {
+    display: block;
+    font-size: 1.2rem;
+}
+
+.customized{
+    padding-top: 14vh;
+    height: 100%;
+    width: 100%;
+}

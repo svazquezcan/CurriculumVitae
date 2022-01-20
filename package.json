@@ -1,0 +1,56 @@
+{
+  "name": "curriculumvitae",
+  "version": "1.0.0",
+  "description": "my portfolio page",
+  "main": "index.html",
+  "dependencies": {
+    "@babel/eslint-parser": "7.16.5",
+    "animate.css": "^4.1.1",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "express-json": "^1.0.0",
+    "mongodb": "^4.3.0",
+    "mongoose": "^6.1.7",
+    "nodemailer": "^6.7.2",
+    "standard": "^16.0.4",
+    "urlencode": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx": "^0.1.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  },
+  "scripts": {
+    "start": "nodemon routes/server.js",
+    "test": "test",
+    "lint": "eslint js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svazquezcan/sandra-portoflio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "curriculum"
+  ],
+  "author": "sandrvazquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svazquezcan/sandra-portoflio/issues"
+  },
+  "homepage": "https://github.com/svazquezcan/sandra-portoflio#readme"
+}
